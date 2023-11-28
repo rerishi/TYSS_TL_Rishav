@@ -6,7 +6,7 @@ public class ConflictClass {
 	@Test
 	public void arpan() {
 		System.out.println("Conflict Arpan");
-		System.out.println("Conflict2 Arpan");
+		System.out.println("conflict Manoj");
 	}
 
 }
