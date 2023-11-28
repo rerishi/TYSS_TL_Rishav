@@ -7,6 +7,9 @@ public class ArpanClass1 {
 	
 	public void arpan2() {
 		System.out.println("MY branch 2nd Push");
+		System.out.println("Hello");
+		System.out.println("Hello2");
+		System.out.println("Hello21");
 	}
 
 }
