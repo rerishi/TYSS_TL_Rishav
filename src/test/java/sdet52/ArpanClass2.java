@@ -1,8 +1,17 @@
 package sdet52;
 
+import org.testng.annotations.Test;
+
 public class ArpanClass2 {
-	public static void main(String[] args) {
-		System.out.println("Time 15.35");
+	
+	@Test(groups = "smoke")
+	public void arpan3() {
+		System.out.println("SMOKE--3");
+	}
+	
+	@Test(groups = "regression")
+	public void arpan4() {
+		System.out.println("REGRESSION--4");
 	}
 
 }
