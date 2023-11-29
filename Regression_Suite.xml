@@ -6,7 +6,7 @@
 			<include name="regression"></include>
 		</run>
 	</groups>
-  <test thread-count="5" name="Test">
+  <test thread-count="5" parallel="tests" name="Test">
     <classes>
       <class name="sdet52.ArpanClass1"/>
       <class name="sdet52.ArpanClass2"/>
