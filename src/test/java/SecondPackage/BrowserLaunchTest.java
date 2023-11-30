@@ -13,5 +13,7 @@ public class BrowserLaunchTest {
 	{
 		driver=new ChromeDriver();
 		driver.get("https://www.amazon.in");
+		
+		System.out.println("TestScript Working Fine");
 	}
 }
