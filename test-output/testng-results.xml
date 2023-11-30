@@ -1,17 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-29T16:13:51 IST" name="Default suite" finished-at="2023-11-29T16:14:33 IST" duration-ms="41960">
+  <suite started-at="2023-11-30T10:02:32 IST" name="Suite" finished-at="2023-11-30T10:02:32 IST" duration-ms="65">
     <groups>
+      <group name="smoke">
+        <method signature="ArpanClass1.arpan1()[pri:0, instance:sdet52.ArpanClass1@131774fe]" name="arpan1" class="sdet52.ArpanClass1"/>
+        <method signature="ArpanClass2.arpan3()[pri:0, instance:sdet52.ArpanClass2@4550bb58]" name="arpan3" class="sdet52.ArpanClass2"/>
+      </group> <!-- smoke -->
     </groups>
-    <test started-at="2023-11-29T16:13:51 IST" name="Default test" finished-at="2023-11-29T16:14:33 IST" duration-ms="41960">
-      <class name="practiceJenkinGoals.GetTitleOfWebPageTest">
-        <test-method signature="title()[pri:0, instance:practiceJenkinGoals.GetTitleOfWebPageTest@223d2c72]" started-at="2023-11-29T16:13:51 IST" name="title" finished-at="2023-11-29T16:14:33 IST" duration-ms="41924" status="PASS">
+    <test started-at="2023-11-30T10:02:32 IST" name="Test" finished-at="2023-11-30T10:02:32 IST" duration-ms="65">
+      <class name="sdet52.ArpanClass2">
+        <test-method signature="arpan3()[pri:0, instance:sdet52.ArpanClass2@4550bb58]" started-at="2023-11-30T10:02:32 IST" name="arpan3" finished-at="2023-11-30T10:02:32 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- title -->
-      </class> <!-- practiceJenkinGoals.GetTitleOfWebPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- arpan3 -->
+      </class> <!-- sdet52.ArpanClass2 -->
+      <class name="sdet52.ArpanClass1">
+        <test-method signature="arpan1()[pri:0, instance:sdet52.ArpanClass1@131774fe]" started-at="2023-11-30T10:02:32 IST" name="arpan1" finished-at="2023-11-30T10:02:32 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- arpan1 -->
+      </class> <!-- sdet52.ArpanClass1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
